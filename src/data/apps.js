@@ -2,25 +2,28 @@ export const apps = [
   {
     id: 'jarvis-os',
     name: 'Jarvis OS',
-    tagline: 'Sistema operativo inteligente con IA integrada',
-    description: 'Un revolucionario sistema operativo que integra inteligencia artificial en cada aspecto de la experiencia del usuario.',
-    longDescription: 'Jarvis OS representa el futuro de los sistemas operativos, combinando una interfaz intuitiva con capacidades de IA avanzadas. Automatiza tareas, predice necesidades del usuario y optimiza el rendimiento del sistema en tiempo real, creando una experiencia computacional verdaderamente inteligente.',
-    category: 'UX/UI',
-    technologies: ['AI', 'Frontend', 'Automation'],
+    tagline: 'Sistema de productividad personal inteligente con IA',
+    description: 'Plataforma completa de productividad personal que integra notas, ideas, reflexiones y analytics con asistente de IA.',
+    longDescription: 'Jarvis OS es un sistema avanzado de productividad personal que combina gestión de notas, ideas y reflexiones con potentes capacidades de análisis y visualización. Incluye un asistente de IA integrado, analytics detallados con gráficos interactivos, y herramientas de organización que te ayudan a maximizar tu creatividad y productividad.',
+    category: 'Productividad',
+    technologies: ['AI', 'Analytics', 'Frontend'],
     maturityLevel: 'Ready to Deploy',
     demoUrl: 'https://jarvis-os-git-main-chris-projects-350fdfeb.vercel.app',
     features: [
-      'Interfaz de usuario adaptativa con IA',
-      'Asistente virtual integrado',
-      'Automatización predictiva de tareas',
-      'Optimización de recursos en tiempo real',
-      'Ecosistema de aplicaciones inteligentes'
+      'Sistema de notas inteligente y organizado',
+      'Gestión avanzada de ideas creativas',
+      'Módulo de reflexiones personales',
+      'Analytics y visualizaciones con D3 y Recharts',
+      'Asistente de IA con OpenAI integrado',
+      'Interfaz moderna con Chakra UI',
+      'Visualizaciones interactivas con Force Graph'
     ],
     benefits: [
-      'Aumenta productividad en un 70%',
-      'Reduce tiempo de configuración en 85%',
-      'Aprende patrones de uso personal',
-      'Interfaz futurista y fácil de usar'
+      'Centraliza toda tu información personal',
+      'Análisis inteligente de patrones y tendencias',
+      'Interfaz elegante y fácil de navegar',
+      'Asistente IA para análisis y orientación',
+      'Visualizaciones que revelan insights únicos'
     ],
     pricing: {
       license: '$4,999',
@@ -29,36 +32,39 @@ export const apps = [
     },
     testimonials: [
       {
-        name: 'Sofia Chen',
-        company: 'FutureTech',
-        text: 'Es como tener un asistente personal que entiende exactamente lo que necesitas antes de pedirlo.'
+        name: 'Dr. Patricia Silva',
+        company: 'Innovation Labs',
+        text: 'Revolutionó mi forma de organizar ideas y proyectos. Los analytics me ayudan a entender mis patrones de trabajo.'
       }
     ],
     videoUrl: '/videos/jarvis-os-demo.mp4',
-    createdWithAI: 'IA conversacional avanzada, machine learning para personalización y algoritmos predictivos para optimización de sistema.'
+    createdWithAI: 'Asistente IA conversacional con OpenAI, visualizaciones inteligentes con D3-Force, y analytics predictivos para optimización personal.'
   },
   {
     id: 'ideasparaapp',
     name: 'Ideas Para App',
-    tagline: 'Generador de ideas innovadoras para aplicaciones',
-    description: 'Plataforma que utiliza IA para generar ideas únicas y viables para aplicaciones móviles y web.',
-    longDescription: 'Ideas Para App es una herramienta revolucionaria que combina análisis de mercado, tendencias tecnológicas y machine learning para generar ideas de aplicaciones innovadoras y viables. Perfecta para emprendedores, desarrolladores y equipos de producto que buscan inspiración basada en datos reales.',
+    tagline: 'Plataforma web moderna para explorar y organizar ideas creativas',
+    description: 'Aplicación web que combina creatividad e inteligencia artificial para explorar, organizar y desarrollar ideas innovadoras.',
+    longDescription: 'Ideas Para App es una aplicación web moderna construida con las últimas tecnologías (React 19, TypeScript, Tailwind CSS 4.x) que te ayuda a explorar, organizar y desarrollar tus ideas creativas. Integra inteligencia artificial via OpenAI para análisis y orientación, incluye un sistema de diario personal, modo de liberación creativa y una comunidad para compartir inspiración.',
     category: 'Productividad',
-    technologies: ['AI', 'Analytics', 'Frontend'],
+    technologies: ['AI', 'Frontend', 'Analytics'],
     maturityLevel: 'Ready to Deploy',
     demoUrl: 'https://ideasparaapp.vercel.app',
     features: [
-      'Generación de ideas basada en IA',
-      'Análisis de viabilidad automático',
-      'Investigación de mercado integrada',
-      'Validación de conceptos en tiempo real',
-      'Exportación de propuestas detalladas'
+      'Exploración de ideas por categorías',
+      'Diario personal con filtros y búsqueda',
+      'ConciencIA: Asistente IA powered by OpenAI',
+      'Modo liberación para expresión libre',
+      'Comunidad para compartir contenido',
+      'Fanzine con contenido inspiracional curado',
+      'Diseño responsive optimizado'
     ],
     benefits: [
-      'Acelera el proceso de ideación en 90%',
-      'Reduce riesgo de fracaso de productos',
-      'Identifica nichos de mercado inexplorados',
-      'Genera documentación técnica automática'
+      'Organiza y estructura tus ideas creativas',
+      'Obtén análisis y orientación con IA',
+      'Conecta con una comunidad creativa',
+      'Interfaz moderna y fácil de usar',
+      'Tecnología de vanguardia (React 19, TS)'
     ],
     pricing: {
       license: '$1,999',
@@ -67,36 +73,39 @@ export const apps = [
     },
     testimonials: [
       {
-        name: 'Carlos Mendoza',
-        company: 'StartupLab',
-        text: 'Hemos creado 3 aplicaciones exitosas usando las ideas generadas. ROI increíble.'
+        name: 'Elena Martínez',
+        company: 'Creative Studio',
+        text: 'Una herramienta increíble para organizar ideas. La integración con IA es perfecta para obtener nuevas perspectivas.'
       }
     ],
     videoUrl: '/videos/ideasparaapp-demo.mp4',
-    createdWithAI: 'Modelos de NLP y análisis predictivo para generar y validar ideas de aplicaciones innovadoras.'
+    createdWithAI: 'Integración completa con OpenAI para análisis de ideas, gestión inteligente de contenido con Zustand y tecnologías de vanguardia.'
   },
   {
     id: 'ecrcrew',
     name: 'ECR Crew',
-    tagline: 'Gestión inteligente de equipos y proyectos',
-    description: 'Sistema completo para la gestión de equipos de trabajo, proyectos y recursos empresariales.',
-    longDescription: 'ECR Crew revoluciona la gestión de equipos mediante una plataforma integral que combina gestión de proyectos, seguimiento de recursos y análisis de productividad. Diseñada para equipos modernos que necesitan coordinación eficiente y transparencia total.',
-    category: 'Operations',
-    technologies: ['Frontend', 'Analytics', 'Automation'],
+    tagline: 'Plataforma de chatbot inteligente con múltiples agentes de IA',
+    description: 'Sistema avanzado de chatbot que integra múltiples agentes de IA con autenticación completa y backend robusto.',
+    longDescription: 'ECR Crew es una plataforma completa de chatbot que combina múltiples agentes de inteligencia artificial en una interfaz elegante y segura. Incluye sistema completo de autenticación con JWT, rate limiting, backend con Express, y una experiencia de usuario moderna con React. Perfecta para empresas que necesitan asistentes IA especializados.',
+    category: 'AI',
+    technologies: ['AI', 'Backend', 'Frontend'],
     maturityLevel: 'Ready to Deploy',
     demoUrl: 'https://ecrcrew.vercel.app',
     features: [
-      'Dashboard de gestión de equipos',
-      'Seguimiento de proyectos en tiempo real',
-      'Análisis de productividad automático',
-      'Gestión de recursos y calendario',
-      'Reportes ejecutivos inteligentes'
+      'Múltiples agentes de IA especializados',
+      'Sistema completo de autenticación con JWT',
+      'Backend robusto con Express y rate limiting',
+      'Interfaz de chat moderna y responsive',
+      'Gestión de usuarios y sesiones',
+      'Renderizado avanzado con React Markdown',
+      'Destacado de sintaxis para código'
     ],
     benefits: [
-      'Mejora productividad del equipo en 45%',
-      'Reduce tiempo de coordinación en 60%',
-      'Aumenta transparencia organizacional',
-      'Optimiza asignación de recursos'
+      'Acceso a múltiples especialistas de IA',
+      'Seguridad empresarial con autenticación',
+      'Escalabilidad con rate limiting incorporado',
+      'Experiencia de usuario fluida y moderna',
+      'Backend preparado para producción'
     ],
     pricing: {
       license: '$2,499',
@@ -105,21 +114,20 @@ export const apps = [
     },
     testimonials: [
       {
-        name: 'Ana Rodríguez',
-        company: 'TechFlow',
-        text: 'Transformó completamente cómo gestionamos nuestros equipos distribuidos. Imprescindible.'
+        name: 'Roberto Méndez',
+        company: 'AI Solutions',
+        text: 'Una plataforma de chatbot increíblemente completa. Los múltiples agentes nos dan la versatilidad que necesitábamos.'
       }
     ],
     videoUrl: '/videos/ecrcrew-demo.mp4',
-    createdWithAI: 'Algoritmos de optimización para asignación de recursos y predicción de cuellos de botella en proyectos.'
+    createdWithAI: 'Múltiples agentes de IA con OpenAI, backend inteligente con rate limiting automático, y arquitectura escalable para chat empresarial.'
   }
 ];
 
 export const categories = [
   'Todas',
   'Productividad',
-  'UX/UI',
-  'Operations'
+  'AI'
 ];
 
 export const maturityLevels = [
@@ -131,5 +139,5 @@ export const technologies = [
   'AI',
   'Frontend',
   'Analytics',
-  'Automation'
+  'Backend'
 ]; 
